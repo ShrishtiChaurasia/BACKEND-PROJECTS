@@ -1,0 +1,72 @@
+*{
+    margin : 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: blueviolet;
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.form{
+    background-color: black;
+    padding: 1.5rem;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    border: 2px solid blue;
+    border-radius: 5px;
+}
+
+h3{
+    color: blue;
+    text-decoration: none;
+    font-size: 1rem;
+}
+
+button{
+    padding: 0.5rem 0.2rem 0.5rem 0.2rem;
+    background-color: rgb(54, 52, 52);
+    color: white;
+    font-size: 0.7rem;
+    font-weight: 500;
+    box-shadow: 5px 2px 1px 1px rgb(68, 67, 67);
+    cursor: pointer;
+}
+
+input{
+    background-color: aliceblue;
+    color: black;
+    padding: 0.5rem;
+    border: 1px solid black;
+    border-radius: 4px;
+    width: 1 flex;
+    font-size: 0.8rem;
+    margin: 1rem;
+    font-family: sans-serif;
+}
+
+.forgot h4{
+    color: aqua;
+    font-size: 1rem;
+    text-transform: uppercase;
+    margin: 1rem;
+}
+
+.forgot h4:hover{
+    color: aliceblue;
+    text-decoration: underline;
+}
+
+.form h1{
+    color: blue;
+    font-size: 1.7rem;
+    font-weight: 600;
+    margin-bottom: 0.5rem;
+}
